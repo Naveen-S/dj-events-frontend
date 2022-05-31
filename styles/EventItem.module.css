@@ -1,0 +1,35 @@
+.event {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+  padding: 0.9rem;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+  flex: 1;
+  margin: 0.6rem;
+}
+
+.info {
+  flex: 2;
+}
+
+.evtTime {
+  font-weight: normal;
+}
+.evtTitle {
+  padding: 1rem 0;
+}
+
+@media (max-width: 600px) {
+  .event {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info {
+    margin-bottom: 1.5rem;
+  }
+}

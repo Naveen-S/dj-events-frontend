@@ -1,0 +1,10 @@
+.dash h1 span {
+  font-size: 1.2rem;
+  color: #777;
+  margin-left: 0.6rem;
+}
+
+.dash h3 {
+  font-size: 1.5rem;
+  color: red;
+}
